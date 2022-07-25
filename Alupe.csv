@@ -1,0 +1,32 @@
+Name,Age,Weight,Height,Gender,Education,Religion
+,18-24,78,163,Male,College,Christian
+,25-45,67,163,Male,None,Muslim
+,Above 45,102,231,Male,None,Muslim
+,18-24,78,209,Male,Secondary,Christian
+,25-45,77,163,Female,Secondary,Christian
+,Above 45,88,209,Male,College,Christian
+,18-24,99,231,Male,College,Christian
+,18-24,102,223,Male,College,No religion
+,18-24,112,234,Male,Primary,Muslim
+,18-24,161,191,Female,Primary,Christian
+,25-45,112,190,Male,College,Christian
+,25-45,77,137,Male,None,Christian
+,25-45,88,111,Female,Primary,Christian
+,25-45,66,133,Male,None,No religion
+,25-45,78,202,Male,Secondary,No religion
+,25-45,98,111,Male,None,Christian
+,25-45,78,142,Female,Secondary,No religion
+,25-45,98,182,Male,Secondary,Muslim
+,Above 45,65,181,Male,Primary,Christian
+,Above 45,77,158,Male,None,Muslim
+,Above 45,88,235,Female,College,No religion
+,Above 45,99,124,Male,College,Christian
+,Above 45,44,184,Male,Secondary,Christian
+,Above 45,67,141,Female,Secondary,Muslim
+,Above 45,79,143,Female,College,No religion
+,25-45,89,229,Female,None,No religion
+,25-45,78,206,Female,Secondary,Christian
+,25-45,90,233,Male,Secondary,No religion
+,Above 45,96,180,Female,Secondary,Christian
+,Above 45,92,147,Female,Primary,Muslim
+,Above 45,102,228,Male,None,Muslim

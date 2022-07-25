@@ -1,0 +1,51 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+author: "Erick Yegon "
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About the Course Project
+
+This is a deliverable for the course Developing Data Products as part of the Coursera Data Science Specialization.
+
+Instructions:
+
+1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+2. Deploy the application on Rstudio's shiny server
+3. Share the application link by pasting it into the provided text box
+4. Share your server.R and ui.R code on github
+
+## How to use the application
+
+This is a health center health record app where the patient is asked for details and the patient details are kept in the database for later use to predict the  duration it takes a client to be served in the health facility 
+The application is running on (https://ri45rz-erick-yegon.shinyapps.io/Kaptich/?_ga=2.3945392.1831698937.1658718531-1220157865.1658718531)
+
+ui.R, and Server.R Code in my github repository (https://github.com/keyegon/Course-Project-Shiny-Application-and-Reproducible-Pitc)
+```{r}
+setwd("C:/Users/Erick Yegon/Dropbox/My PC (DESKTOP-1I4SCDT)/Desktop/Kaptich")
+```
+
+## Alupe Health Center, Patient Record Database
+
+The data used in the app  is collected by taking patient details 
+
+```{r}
+library(tidyverse)
+  Alupe <- read_csv("Alupe.csv")
+
+summary(Alupe)
+
+```
+
+## Scatterplot of  Maximum and Minimum Temperatures of Kenyan Cities
+
+```{r}
+ggplot(Alupe, aes(Age, Gender, fill= Education))+
+  geom_col()+ facet_wrap(~Religion)
+```
+
